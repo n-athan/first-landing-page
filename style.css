@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+    font-family: 'Baloo Tammudu', Ubuntu, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: floralwhite;
+    maring: 0px;
+}
+
+h1 {
+    font-size: 4em;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.5;
+    margin-bottom: 0;
+    margin-top: 10%;
+    background: -webkit-linear-gradient(floralwhite, rgb(48, 37, 51));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+div {
+    display: flex;
+    flex-flex: wrap;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+
+a {
+    position: absolute;
+    top: 60%;
+    width: 20%;
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid floralwhite;
+    border-radius: 20px;
+    padding: 0px 10px;
+}
+
+button:hover, button:active {
+    background-color: rgba(255, 250, 240,0.8);
+    color: invert;
+}
+button:hover > p , button:active > p {
+    color: black;
+}
+
+button > p {
+    text-align: center;
+    color: floralwhite;
+    font-weight: bold;
+    font-family: 'Baloo Tammudu', Ubuntu, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1;
+}
